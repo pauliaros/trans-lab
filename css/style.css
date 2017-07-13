@@ -149,7 +149,52 @@ button{
 
 }
 
+/*INDEX2*/
 
+.img-circle{
+	width: 200px;
+	margin-top:50px;
+	margin-bottom: 50px;
+
+}
+
+#perfil {
+	background-color:  #F4A728;
+	
+}
+
+#tarjeta-ingreso{
+	background-color: #D6D5D5;
+	padding-bottom: 143px;
+}
+
+ .tarjeta-num{
+	width: 400px;
+    padding: 13px 20px;
+    margin: 8px 0;
+	background: #D6D5D5;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid #75726c;
+}
+
+.btn-2{
+	background: #F4A728;
+	color: white;
+	padding: 12px;
+	border-color: #41521F;
+	width: 400px;
+	border-style: none;
+	margin-top:10px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	border: 1px solid  #F4A728;
+}
+
+.correo-index{
+	background-color: white;
+	
+}
 
 
 

@@ -234,6 +234,72 @@ button{
 	font-size: 13px;
 }
 
+/*index4*/
+#saldo{
+	background-color:  #D6D5D5;
+	height: 594px;
+}
+
+.boton-saldo{
+	background: #F4A728;
+	color: white;
+	padding: 12px;
+	border-color: #41521F;
+	width: 200px;
+	border-style: none;
+	margin-top:10px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	border: 1px solid  #F4A728;
+}
+
+.tarjeta-saldo,
+.tarjeta-saldo5{
+	width: 400px;
+    padding: 13px 20px;
+    margin: 8px 0;
+	background: #D6D5D5;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid #75726c;
+    margin-top: 60px;
+}
+
+#option{
+	width: 400px;
+    margin: 8px 0;
+	background: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   border: none;
+    padding-top: 60px;
+}
+
+/*INDEX5*/
+
+#option-tarifa,
+#option-tarjeta{
+	width: 200px;
+    margin: 8px 0;
+	background: white;
+    margin-top: 40px;
+   	border: none;
+    
+}
+
+.boton-calcular{
+	background: #F4A728;
+	color: white;
+	padding: 12px;
+	border-color: #41521F;
+	width: 200px;
+	border-style: none;
+	margin-top:10px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	border: 1px solid  #F4A728;
+	margin-top: 40px;
+}
 
 
 

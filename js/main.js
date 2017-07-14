@@ -13,5 +13,5 @@ $(document).ready(function(){
   			$("#input-pass").parent().append("<span>Ingrese contraseña valida</span>");
   		}
 
-  	});
+  });
 });

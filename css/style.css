@@ -196,6 +196,43 @@ button{
 	
 }
 
+/*INDEX3*/
+
+#preguntas{
+	background-color:  #F4A728;
+	padding: 60px;
+}
+
+.titulo-preguntas{
+	font-size: 30px;
+	color: white;
+
+}
+
+#tabla-preg .tab-content {
+  color : white;
+  background-color: #F4A728;
+  padding : 17px 15px;
+  padding-top: 10px;
+}
+
+.tab-pane {
+	color: white;
+}
+
+.nav-pills a{
+	background-color: #D6D5D5 !important;
+
+}
+
+#preguntas-frecuentes{
+	background-color: #D6D5D5;
+	padding-bottom: 188px;
+}
+
+.resp-preg{
+	font-size: 13px;
+}
 
 
 

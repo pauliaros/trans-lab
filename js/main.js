@@ -74,23 +74,28 @@ $("#home-menu").click(function(e){
         });
 
 /* API */
+
 $(document).ready(function(){
+	$("#calculo-saldo").on("click", function(){
+		var saldoFinal = $("#guardar-saldo").val();
     $.ajax({
-            url: 'http://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=123456',
+            url: 'http://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=' + saldoFinal, 
             type: 'GET',
             datatype: 'JSON',
-            data:{'limit':'20'
-            }
+            
         })
 
         .done(function(response){
-            console.log(response);
+        	$("#resultado-saldo").append("<div>"+ response.saldoTarjeta + "</div>")
+            console.log(response.saldoTarjeta);
         })
 
         .fail(function(error){
             console.log("error");
         })
     });
+	})
+	
 
 
 

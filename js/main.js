@@ -73,6 +73,24 @@ $("#home-menu").click(function(e){
             window.location = "index.html";
         });
 
+/* API */
+$(document).ready(function(){
+    $.ajax({
+            url: 'http://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=123456',
+            type: 'GET',
+            datatype: 'JSON',
+            data:{'limit':'20'
+            }
+        })
+
+        .done(function(response){
+            console.log(response);
+        })
+
+        .fail(function(error){
+            console.log("error");
+        })
+    });
 
 
 

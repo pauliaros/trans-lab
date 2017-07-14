@@ -109,7 +109,7 @@ button{
     float: left;
     margin-left: 10px;
     border: none;
-    width: 7%;
+    width: 8.5%;
 
 	}
 
@@ -319,8 +319,20 @@ button{
   width: 200px;
   color: white;
 }
-
-
+ 
+ #resultado-saldo{
+ 	margin-top: 40px;
+ 	color: #3e3f41;
+ 	font-size: 40px;
+ 	background: #F4A728;
+ 	width: 200px;
+ }
+ 
+ .cuadro-saldo{
+ 	font-size: 15px;
+ 	color: white;
+ 	
+ }
 
 
 

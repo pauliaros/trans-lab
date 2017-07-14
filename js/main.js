@@ -70,14 +70,14 @@ $("#preguntas-menu").click(function(e){
 
 $("#home-menu").click(function(e){
             e.preventDefault();
-            window.location = "index.html";
+            window.location = "index1.html";
         });
 
 /* API */
 
 $(document).ready(function(){
-	$("#calculo-saldo").on("click", function(){
-		var saldoFinal = $("#guardar-saldo").val();
+	$("#calculo-saldo").on("click", function(){ //id boton
+		var saldoFinal = $("#guardar-saldo").val(); //id input donde se ingresa num de bip
     $.ajax({
             url: 'http://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=' + saldoFinal, 
             type: 'GET',
@@ -86,8 +86,8 @@ $(document).ready(function(){
         })
 
         .done(function(response){
-        	$("#resultado-saldo").append("<div>"+ response.saldoTarjeta + "</div>")
-            console.log(response.saldoTarjeta);
+        	$("#resultado-saldo").append("<div id='resultado-saldo'>"+ response.saldoTarjeta + "</div>") //id div vacio donde se imprime el saldo de bip
+            console.log(response.saldoTarjeta); //se llama desde json el elem que contiene la info que se necesita(saldo)
         })
 
         .fail(function(error){

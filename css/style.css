@@ -176,6 +176,7 @@ button{
     margin-top: 20px;
     border: none;
     border-bottom: 2px solid #75726c;
+    margin-top: 20px;
 }
 
 .btn-2{
@@ -194,6 +195,11 @@ button{
 .correo-index{
 	background-color: white;
 	
+}
+
+.correo-index span{
+	margin: 40px;
+	padding: 10px;
 }
 
 /*INDEX3*/

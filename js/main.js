@@ -46,7 +46,7 @@ $("#preg-frecuentes").click(function(e){
             window.location = "index3.html";
         });
 
-/*uniendo botones del menu a los index*/
+/*enlazando botones del menu a los index*/
 
 $("#saldo-tarj-menu").click(function(e){
             e.preventDefault();
